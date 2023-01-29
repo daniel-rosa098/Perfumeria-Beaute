@@ -884,4 +884,10 @@ footer{
     height: 250px;
     padding: 5%;
 }
-
+#contact{
+    display: block;
+    margin: auto;
+    width: 370px;
+    height: 335px;
+    padding: 10%;
+}
