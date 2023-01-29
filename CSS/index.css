@@ -781,3 +781,70 @@ footer{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/*Crea tu perfume*/
+.tituloCrea{
+    text-align: center;
+    margin-top: 120px;
+    font-family: 'PT Snas', sans-serif;
+}
+
+.contenedorCrea{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    padding-top: 20px;
+    margin-left: 125px;
+}
+
+.tarjetasCrea{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6%;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.tarjetasCrea:hover{
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.tarjetasCrea img{
+    width: 100%;
+    height: 200px;
+}
+
+.tarjetasCrea .contenidoCrea{
+    padding: 15px;
+    text-align: center;
+}
+
+.tarjetasCrea .contenidoCrea p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.tarjetasCrea .contenidoCrea h3{
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.tarjetasCrea .contenidoCrea a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.tarjetasCrea .contenidoCrea a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
