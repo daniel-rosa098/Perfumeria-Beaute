@@ -848,3 +848,39 @@ footer{
     background: #2fb4cc;
     color: #fff;
 }
+/* titulo de erick */
+.nuevasFrang{
+    font-weight: bold;
+    font-size:  40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* la caligrafia de la fuenta */
+.tipFrang{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold; 
+/* peso de la fuente bolder es relativo */
+    padding: 2%;
+
+}
+/* Tabla de Productos */
+
+.prodct1 a{
+    font-size: 10;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: #000000;
+    padding: 10%;
+    float: left;
+    text-align: center;
+  
+    
+}
+.prodct1 img{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    padding: 5%;
+}
