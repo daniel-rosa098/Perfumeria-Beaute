@@ -176,18 +176,128 @@ body{
 }
 /*Aqui termina el menu de hamburguesa*/
 
+/*Quienes somos*/
+.quienes{
+    background: #f2f2f2;
+}
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor-servicio img{
+    width: 40%;
+
+}
+.checklist-servicio{
+    width: 40%;
+
+}
+.service{
+    margin-bottom: 20px;
+}
+.n-service{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+}
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+/*Objetivo*/
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor-servicio img{
+    width: 40%;
+
+}
+.checklist-servicio{
+    width: 40%;
+
+}
+.service{
+    margin-bottom: 20px;
+}
+.n-service{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+}
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+/*Perfumes*/
+#cajapadre { 
+    position: relative; 
+    width: 365px; 
+    height: 274px; 
+    overflow: hidden; 
+}
+
+#contenedor { 
+    position: fixed; 
+    top: 0px; 
+    width: 365px; 
+    height: 324px; 
+} 
+#contenedorsuperior { 
+    width: 365px; 
+    height: 274px; 
+} 
+#contenedorinferior { 
+    width: 365px; 
+    height: 35px; 
+    padding-top: 15px; 
+    background-color: rgba(200, 200, 200, 0.8); 
+    text-align: center; 
+} 
+#contenedor:hover { 
+    top: -50px; 
+}
+#contenedor { 
+    position: absolute; 
+    top: 0px; 
+    width: 365px; 
+    height: 324px; 
+    transition: top 0.5s ease-in-out 0s; 
+} 
 /*Crear usuario*/
+input{
+    color: rgb(255, 255, 255);
+}
+
 .form-login{
     width: 500px;
-    height: 500px;
+    height: 510px;
     background: #4e4d4d;
     margin: auto;
     margin-top: 150px;
-    box-shadow: 7px 13px 37px rgb(214, 162, 210);
+    box-shadow: 7px 13px 37px rgb(163, 102, 158);
     padding: 20px 30px;
     border-top: 4px solid rgb(116, 48, 172);
     color: white;
-    border-radius: 5px;
 }
 .form-login h5{
     margin: 0;
@@ -199,19 +309,20 @@ body{
 }
 .controls{
     width: 100%;
-    border: 1px solid rgb(116, 48, 172);
+    border: 1px solid rgb(224, 216, 230);
     margin-bottom: 15px;
     padding: 11px 10px;
-    background: #fdfdfd;
+    background: #252323;
     font-size: 14px;
     font-weight: bold;
 }
 .buttons{
+    font-weight: bold;
     width: 100%;
     height: 40px;
-    background: rgb(116, 48, 172);
+    background: #d7dde091;
     border: none;
-    color: white;
+    color: rgb(10, 10, 10);
     margin-bottom: 16px;
 }
 .form-login p{
@@ -227,6 +338,8 @@ body{
 .form-login a:hover{
     text-decoration: underline;
 }
+/**/
+
 .titulo{
     color: #000;
     font-size: 35px;
@@ -355,60 +468,44 @@ footer{
 .footer-content{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .contact-us{
-    width: 40%;
+    width: 1200px;
     color: #000;
 }
-.brand{
-    font-weight: 500;
-    font-size: 40px;
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: #000;
+    margin-bottom: 60px;
 }
-.brand+p{
-    font-weight: 500;
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #000;
+    margin-bottom: 10px;
 }
-.social-media{
-    width: 50%;
+.derechos{
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    transition: all 0.5s ease;
 }
-.social-media-icon{
-    display: inline-block;
-    margin-left: 20px;
-    width: 60px;
-    height: 60px;
-    border: 2px  solid #000;
-    border-radius: 50%;
-    text-align: center;
+.registro1{
+    font-weight: bold;
+    text-decoration: none;
     color: #000;
-}
-.social-media-icon:hover{
-    background: #fff;
-    color: #7AB793;
-}
-.social-media-icon i{
-    font-size: 30px;
-    line-height: 60px;
-}
-.line{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 2px;
-    background: #000;
-    margin-bottom: 60px;
-}
-.line{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 2px;
-    background: #000;
-    margin-bottom: 60px;
 }
 @media screen and (max-width: 800px) {
     .menu-navegacion{
@@ -567,7 +664,7 @@ footer{
     text-decoration: none;
 }
 
-/* Fragancias de homnre */
+/* Fragancias de hombre */
 .fondo{
     background-color: #cfdbd8;
 }
