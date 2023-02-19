@@ -40,6 +40,9 @@ body{
     color: #ffffff;
     font-weight: 100;
 }
+#Miagenda{
+    margin-top: 20px;
+}
 .menu{
     display: flex;
 }
@@ -123,11 +126,10 @@ body{
     line-height: 1.5;
     font-family: 'PT Serif', serif;
 }
-.container{
+/*.container{
     width: 100%;
     display: flex;
-    
-}
+}*/
 /*Menu de hamburguesa*/
 /*Estilos carlos*/
 .head{
